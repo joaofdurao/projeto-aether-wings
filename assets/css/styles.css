@@ -129,6 +129,25 @@ main h2 {
   background: #ffc400;
 }
 
+.contato {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.item-contato {
+  margin: 20px;
+}
+
+hr {
+  border: none;
+    height: 1px; 
+    background-color: var(--dourado-acento); 
+    margin: 20px 0;
+    width: 100%;
+}
+
 footer {
   background: var(--azul-secundario);
   color: var(--prata-claro);
