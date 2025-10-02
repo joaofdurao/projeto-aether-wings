@@ -129,15 +129,12 @@ main h2 {
   background: #ffc400;
 }
 
-.contato {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
 .item-contato {
   margin: 20px;
+  background-color: var(--azul-secundario);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 hr {
