@@ -1,166 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aether Wings - Home</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" type="image/png" href="assets/img/logo.png" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aether Wings - Home</title>
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  <link rel="icon" type="image/png" href="assets/img/logo.png">
-</head>
+  <body>
+    <header>
+      <img src="assets/img/logo.png" alt="Logo da loja Aether Wings" />
+      <h1>Aether Wings</h1>
+      <p>Sua jornada começa acima das nuvens.</p>
+    </header>
 
-<body>
-  <header>
-    <img src="assets/img/logo.png" alt="Logo da loja Aether Wings">
-    <h1>Aether Wings</h1>
-    <p>Sua jornada começa acima das nuvens.</p>
-  </header>
+    <nav>
+      <a href="#">Início</a>
+      <a href="sobre.html">Sobre nós</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="contato.html">Contato</a>
+    </nav>
 
-  <nav>
-    <a href="#">Início</a>
-    <a href="sobre.html">Sobre nós</a>
-    <a href="catalogo.html">Catálogo</a>  
-    <a href="contato.html">Contato</a>
-  </nav>
-
-  <main class="container">
-    <h2>Nossos Destaques</h2>
-    <div class="produtos">
-      <div class="card">
-        <img src="assets/img/A-100.jpg" alt="Jato Particular de luxo em uma pista" />
-        <h3>Jato Executivo Embraer Phenom 300</h3>
-        <p>
-          Luxo, velocidade e tecnologia de ponta para suas viagens de negócio.
-        </p>
-        <p class="preco">R$ 80.000.000</p>
-        <a href="#" class="botao">Ver Detalhes</a>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>O Céu Não é o Limite, é o Começo.</h1>
+        <p>Encontre a aeronave dos seus sonhos e alce voos mais altos.</p>
+        <a href="catalogo.html" class="botao">Explorar Catálogo</a>
       </div>
+    </section>
 
-      <div class="card">
-        <img src="assets/img/A-380.jpg" alt="Avião comercial grande voando sobre as nuvens" />
-        <h3>Aeronave Comercial Airbus A380</h3>
-        <p>
-          Ideal para linhas aéreas que buscam eficiência e conforto para
-          passageiros.
-        </p>
-        <p class="preco">R$ 120.000.000</p>
-        <a href="#" class="botao">Ver Detalhes</a>
+    <main class="container">
+      <h2>Nossos Destaques</h2>
+      <div class="produtos">
+        <div class="card">
+          <img
+            src="assets/img/A-100.jpg"
+            alt="Jato Particular de luxo em uma pista"
+          />
+          <h3>Jato Executivo Embraer Phenom 300</h3>
+          <p>
+            Luxo, velocidade e tecnologia de ponta para suas viagens de negócio.
+          </p>
+          <p class="preco">R$ 80.000.000</p>
+          <a href="#" class="botao">Ver Detalhes</a>
+        </div>
+        <div class="card">
+          <img src="assets/img/AN-225.jpg" alt="Avião de carga" />
+          <h3>Cargueiro Pesado Antonov An-225</h3>
+          <p>
+            Capacidade e autonomia para transportar suas mercadorias pelo globo.
+          </p>
+          <p class="preco">R$ 90.000.000</p>
+          <a href="#" class="botao">Ver Detalhes</a>
+        </div>
+        <div class="card">
+          <img src="assets/img/B-2.jpg" alt="B-2" />
+          <h3>Bombardeiro Furtivo B-2 Spirit</h3>
+          <p>Democracia.</p>
+          <p class="preco">
+            R$10.000.000.000 (parcelamos em até 96x no cartão C&A)
+          </p>
+          <a href="#" class="botao">Ver Detalhes (ou pelo menos tente)</a>
+        </div>
       </div>
+    </main>
 
-      <div class="card">
-        <img src="assets/img/AN-225.jpg" alt="Avião de carga" />
-        <h3>Cargueiro Pesado Antonov An-225</h3>
-        <p>
-          Capacidade e autonomia para transportar suas mercadorias pelo globo.
-        </p>
-        <p class="preco">R$ 90.000.000</p>
-        <a href="#" class="botao">Ver Detalhes</a>
-      </div>
-      <div class="card">
-        <img src="assets/img/L-39ZA_Albatros_(cropped).jpg" alt="Avião de treinamento militar">
-        <h3>Treinador leve L-39 Albatros</h3>
-        <p>Ideal para quem quer aperfeiçoar seus movimentos em voo
-        </p>
-        <p class="preco">R$1.000.000</p>
-        <a href="#" class="botao">Ver Detalhes</a>
-      </div>
-      <div class="card">
-        <img src="assets/img/VVS_100th_IMG_0691_(7727464290)_(cropped).jpg" alt="caça de alta performance">
-        <h3>Caça de alta performance Mikoyan Mig-29S</h3>
-        <p>Destinado aos que querem puxar ao máximo seus limites</p>
-        <p class="preco">R$45.000.000</p>
-        <a href="#" class="botao">Ver Detalhes</a>
-      </div>
-      <div class="card">
-        <img src="assets/img/c150.jpg" alt="aviao para familia">
-        <h3>Avião de Pequeno porte Cessna 150 Aerobat</h3>
-        <p>Pequeno avião destinado para recreação, mas com fortes emoções</p>
-        <p class="preco">R$150.000</p>
-        <a href="#" class="botao">Ver Detalhes</a>
-      </div>
-      <div class="card">
-        <img src="assets/img/B-2_Spirit_original.jpg" alt="B-2">
-        <h3>Bombardeiro Furtivo B-2 Spirit</h3>
-        <p>Democracia.</p>
-        <p class="preco">R$10.000.000.000 (parcelamos em até 96x no cartão C&A)</p>
-        <a href="#" class="botao">Ver Detalhes (ou pelo menos tente)</a>
-      </div>
-    </div>
-
-    <hr>
-
-
-    <section class="container-tabela">
-      <h3>Comparativo de Destaques</h3>
-      <div class="tabela">
-        
-        
-        <table>
-            <head>
-                <tr>
-                    <th>Característica</th>
-                    <th>Phenom 300</th>
-                    <th>Airbus A360</th>
-                    <th>Antonov An-225</th>
-                    <th>L-39 Albatros</th>
-                    <th>Mig-29S</th>
-                    <th>Cessna 150</th>
-                    <th>B-2 Spirit</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Categoria</td>
-                    <td>Jato Executivo</td>
-                    <td>Comercial</td>
-                    <td>Cargueiro Pesado</td>
-                    <td>Treinador Leve</td>
-                    <td>Caça</td>
-                    <td>Pequeno Porte</td>
-                    <td>Bombardeiro Furtivo</td>
-                </tr>
-                <tr>
-                    <td>Preço (R$)</td>
-                    <td>80.000.000</td>
-                    <td>120.000.000</td>
-                    <td>90.000.000</td>
-                    <td>1.000.000</td>
-                    <td>45.000.000</td>
-                    <td>150.000</td>
-                    <td>10.000.000.000</td>
-                </tr>
-                <tr>
-                    <td>Capacidade</td>
-                    <td>9 Passageiros</td>
-                    <td>300 Passageiros</td>
-                    <td>250 Toneladas</td>
-                    <td>2 Ocupantes</td>
-                    <td>1 Piloto</td>
-                    <td>2 Ocupantes</td>
-                    <td>2 Pilotos</td>
-                </tr>
-                <tr>
-                    <td>Alcance Médio</td>
-                    <td>3.650 km</td>
-                    <td>6.500 km</td>
-                    <td>4.000 km</td>
-                    <td>1.100 km</td>
-                    <td>1.400 km</td>
-                    <td>550 km</td>
-                    <td>11.000 km</td>
-                </tr>
-              
-            </body>
-        </table>
-      </section>
-    </div>
-</section>
-
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Aether Wings - Todos os direitos reservados</p>
-  </footer>
-</body>
-
+    <footer>
+      <p>&copy; 2025 Aether Wings - Todos os direitos reservados</p>
+    </footer>
+  </body>
 </html>
